@@ -1,0 +1,27 @@
+So, what should be on my portfolio?
+
+Let's look at other portfolios:
+
+There should be five sections:
+- Home
+- About
+- Skills
+- Works
+- Connect
+
+Home contains:
+hero image (I need to get some pictures taken)
+and text saying hello I'm ben dance
+Links to Github, Linkedin, and Twitter
+
+About:
+- Just some stuff about me
+
+Skills:
+- Write a bit about your Skills
+
+- Works:
+Spotify API project. Game project. Graphic Design work. Just look at what you've been doing.
+
+- Connect:
+Create a form where people who use the form can send you emails
