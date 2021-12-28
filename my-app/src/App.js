@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './Home';
-import AboutMe from './AboutMe';
+import Experience from './Experience';
 import Skills from './Skills';
-import Works from './Works';
-import Connect from './Connect';
+import Education from './Education';
+import Projects from './Projects';
+import SideBar from './SideBar';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <hr />
-      <AboutMe />
-      <hr />
-      <Skills />
-      <hr />
-      <Works />
-      <hr />
-      <Connect />
+    <div>
+      <SideBar />
+      <div class="container-fluid p-0">
+        <Home />
+        <hr class="m-0" />
+        <Experience />
+        <hr class="m-0" />
+        <Skills />
+        <hr class="m-0" />
+        <Education />
+        <hr class="m-0" />
+        <Projects />
+      </div>
     </div>
   );
 }

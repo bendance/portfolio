@@ -2,17 +2,43 @@ const Skills = (props) => {
     const logoSize = 100;
 
     return(
-        <div id= "skills">
-            <h2>Programming Languages + Tools</h2>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height={logoSize} />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height={logoSize}/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" height={logoSize}/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height={logoSize}/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height={logoSize}/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height={logoSize}/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height={logoSize}/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height={logoSize}/>
-        </div>
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Skills</h2>
+                <div class="subheading mb-3">Programming Languages & Tools</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-git"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                </ul>
+                <div class="subheading mb-3">Workflow</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Able to write comprehensive bug reports
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Able to perform routine QA testing
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Agile development & scrum
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Knowledge of essential data structures and algorithms
+                    </li>
+                </ul>
+            </div>
+        </section>
     );
 }
 

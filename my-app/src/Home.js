@@ -1,20 +1,27 @@
 import React from 'react';
-import linkedin from './pictures/linkedin.png';
 
 const Home = (props) => 
 {
     return(
-        <header>
-            <div className='topnav'>
-                <a className='active' href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#works">Works</a>
-                <a href="#connect">Connect</a>
+        <section className="resume-section" id="home">
+            <div className="resume-section-content">
+                <h1 className="mb-0">
+                    Benjamin
+                    <span className="text-primary">Dance</span>
+                </h1>
+                <div className="subheading mb-5">
+                    Indianapolis, IN · (317) 719-2648 · <a href="mailto:bendance@iu.edu"> bendance@iu.edu</a>
+                </div>
+                <p className="lead mb-5">Hello! 👋🏻 My name is Benjamin Dance.
+                <br />
+                I am a web developer and student at Indiana University Bloomington. </p>
+                <div className="social-icons">
+                    <a className="social-icon" href="https://www.linkedin.com/in/benjamin-dance/"><i className="fab fa-linkedin-in"></i></a>
+                    <a className="social-icon" href="https://github.com/bendance"><i className="fab fa-github"></i></a>
+                    <a className="social-icon" href="https://www.hackerrank.com/bendance"><i className="fab fa-hackerrank"></i></a>
+                </div>
             </div>
-            <h1>Hello, my name is Ben!</h1>
-            <img src={linkedin} height={100} />
-        </header>
+        </section>
     )
 }
 
