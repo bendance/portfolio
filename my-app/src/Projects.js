@@ -6,20 +6,19 @@ export default function Projects(props)
                 <h2 class="mb-5">Projects</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Indiana University Bloomington</h3>
-                        <div class="subheading mb-3">Bachelor of Arts</div>
-                        <div>Computer Science BA and Media BA</div>
-                        <p>GPA: 3.8</p>
+                        <h3 class="mb-0"><a href="https://github.com/bendance/spotify-api-react">Spotify Playlist Generator</a></h3>
+                        <br />
+                        <p>• Created a React application with a NodeJS backend that scrapes for the top 100 songs of any given genre and compiles them into a Spotify playlist. <br />
+                        • Interacts with the Spotify API to authenticate user and refresh authorization token.</p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">August 2018 - May 2022</span></div>
                 </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Avon High School</h3>
-                        <div class="subheading mb-3">Core 40 w/ Academic Honors</div>
-                        <p>GPA: 4.3</p>
+                        <h3 class="mb-0"><a href="https://github.com/bendance/tenthousand">Ten Thousand Hours</a></h3>
+                        <br />
+                        <p>• Created a desktop app that tracks a user’s progress towards a goal. <br />
+                        • The app completely uses Java for its functionality and uses a .txt file to store the amount of time a user has spent towards a goal.</p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">August 2014 - May 2018</span></div>
                 </div>
             </div>
         </section>
