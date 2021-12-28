@@ -25,7 +25,3 @@ Spotify API project. Game project. Graphic Design work. Just look at what you've
 
 - Connect:
 Create a form where people who use the form can send you emails
-
-Known bugs:
-- When scrolling the section that I'm on doesn't change highlight of nav text
-- Social icons are still orange
