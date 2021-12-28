@@ -1,6 +1,4 @@
 const Skills = (props) => {
-    const logoSize = 100;
-
     return(
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
