@@ -18,7 +18,7 @@ const Home = (props) =>
                 <div className="social-icons">
                     <a className="social-icon" href="https://www.linkedin.com/in/benjamin-dance/"><i className="fab fa-linkedin-in"></i></a>
                     <a className="social-icon" href="https://github.com/bendance"><i className="fab fa-github"></i></a>
-                    <a className="social-icon" href="https://www.hackerrank.com/bendance"><i className="fab fa-hackerrank"></i></a>hello
+                    <a className="social-icon" href="https://www.hackerrank.com/bendance"><i className="fab fa-hackerrank"></i></a>
                 </div>
             </div>
         </section>
